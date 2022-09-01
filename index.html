@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box">
+                <h3>Encriptador de Texto</h3>
+                
+                <div class="center">
+                    <section>
+                        <textarea class="input-text" cols="51" rows="5" placeholder="Ingrese el texto a encriptar aqui"></textarea>
+                        <div class="botones1">
+                            <button class="encriptar" onclick="btnEncriptar()"> Encriptar </button>
+                            <button class="Desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                        </div>
+                        
+                    </section>
+                </div>
+                <br><br><br><br><br>
+                <div class="center">
+                    <section>
+                        <textarea class="mensaje" cols="50" rows="5"></textarea>
+                        <br>
+                        <div class="botones1">
+                            <button class="copiar" onclick="copiar()">Copiar</button>
+                        </div>
+                        
+                    </section>
+                </div>
+                <footer>
+                    <br><br>
+                    <p>Copyright Carlos Escudero 2022</p>
+                </footer>
+                
+            </div>  
+        </div>
+        
+    </main>
+    <script src="encriptador.js"> </script>
+</body>
+</html>

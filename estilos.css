@@ -17,6 +17,8 @@ main{
 p{
     color: black;
     padding: 5px;
+    margin-left: 35px;
+    font-weight: bold;
 }
 
 .box{
